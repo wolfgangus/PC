@@ -1,0 +1,2 @@
+## This command will add bad sites such as advertisers to your hosts file and block them.
+sudo wget -O  /etc/host http://someonewhocares.org/hosts/hosts
