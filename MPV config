@@ -18,7 +18,7 @@ slang=en,eng,English
 alang=jp,jpn,Japanese,en,eng,English
 screenshot-format=png
 
-#Change username
+# Change username
 
 screenshot-template=/Users/USERNAME/Pictures/Screencaps/%f_%th_%td_%tY_%tl.%tM.%tS_%tp
 
