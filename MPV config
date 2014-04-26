@@ -1,5 +1,5 @@
 # Write your default config options here!
-#Be sure to change the font from Helvetica to something free!
+# Be sure to change the font from Helvetica to something free!
 
 #no-input-default-bindings
 vo=opengl-hq:icc-profile-auto:approx-gamma
