@@ -15,6 +15,7 @@ osd-duration=1400
 slang=en,eng,English
 alang=jp,jpn,Japanese,en,eng,English
 screenshot-format=png
-screenshot-template=/Users/alex/Pictures/Screencaps/%f_%th_%td_%tY_%tl.%tM.%tS_%tp
+#Change username
+screenshot-template=/Users/USERNAME/Pictures/Screencaps/%f_%th_%td_%tY_%tl.%tM.%tS_%tp
 
 volume=100
