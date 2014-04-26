@@ -1,12 +1,14 @@
 # Write your default config options here!
-# Be sure to change the font from Helvetica to something free!
 
 #no-input-default-bindings
 vo=opengl-hq:icc-profile-auto:approx-gamma
 #vf=unsharp=3:3:0.5
 
 osd-font-size=20
-osd-margin-y=6
+osd-margin-y=
+
+# Be sure to change the font from Helvetica to something free!
+
 osd-font="Helvetica"
 osd-bar-h=4
 osd-duration=1400
@@ -15,7 +17,9 @@ osd-duration=1400
 slang=en,eng,English
 alang=jp,jpn,Japanese,en,eng,English
 screenshot-format=png
+
 #Change username
+
 screenshot-template=/Users/USERNAME/Pictures/Screencaps/%f_%th_%td_%tY_%tl.%tM.%tS_%tp
 
 volume=100
