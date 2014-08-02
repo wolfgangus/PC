@@ -1,2 +1,6 @@
 ## This command will add bad sites such as advertisers to your hosts file and block them.
 sudo wget -O  /etc/host http://someonewhocares.org/hosts/hosts
+
+
+## This command will record the screen and output a .mkv file
+ffmpeg -f alsa -i pulse -f x11grab -r 30 -s 1600x900 -i :0.0+9,10 -acodec  pcm_s16le -vcodec libx264 -threads 0 output.mkv
