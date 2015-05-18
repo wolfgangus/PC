@@ -8,3 +8,6 @@ USE FFCAST INSTEAD
 */
 
 ffmpeg -f alsa -i pulse -f x11grab -r 30 -s 1600x900 -i :0.0+9,10 -acodec  pcm_s16le -vcodec libx264 -threads 0 output.mkv
+
+
+ sudo pacman -Syu && sudo pacman -S xf86-input-synaptics libsynaptics
